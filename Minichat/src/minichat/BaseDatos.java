@@ -18,7 +18,7 @@ import java.util.concurrent.TimeUnit;
  */
 public class BaseDatos {
 
-    /** Cuánto tiempo se guardan los mensajes (cámbialo si el profe pide otro). */
+    /** Cuánto tiempo se guardan los mensajes. */
     public static final int HORAS_RETENCION = 24;
 
     private static final String URL = "jdbc:sqlite:minichat.db";
